@@ -19,7 +19,7 @@ const SummaryChart: React.FC<Props> = ({ data, title }) => {
     labels: data.map((d) => d._id),
     datasets: [
       {
-        label: 'Jumlah Pelanggan',
+        label: 'Total Customers',
         data: data.map((d) => d.count),
         backgroundColor: [
           'rgba(59, 130, 246, 0.7)', // blue

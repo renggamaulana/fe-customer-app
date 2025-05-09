@@ -2,8 +2,8 @@ export interface Customer {
     _id: string;
     number: number;
     location: string;
-    date: string; // ISO string format
-    loginHour: string; // format seperti "16:07"
+    date: string; 
+    loginHour: string;
     name: string;
     age: number;
     gender: 'Male' | 'Female' | string;
@@ -12,7 +12,7 @@ export interface Customer {
     brandDevice: string;
     digitalInterest: string;
     locationType: 'urban' | 'rural' | string;
-    createdAt: string; // ISO date string
+    createdAt: string;
     updatedAt: string;
     __v: number;
   }
